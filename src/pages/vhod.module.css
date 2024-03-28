@@ -1,0 +1,262 @@
+.buttonSvg {
+  width: 20px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h3,
+.p,
+.p1 {
+  margin: 0;
+}
+.h3 {
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 55px var(--padding-lg) 55.3px;
+}
+.buttonContinue,
+.div {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  display: flex;
+}
+.buttonContinue {
+  width: 100%;
+  border: 0;
+  height: 70px;
+  outline: 0;
+  background-color: #fff;
+  align-self: stretch;
+  height: 62px;
+  border-radius: var(--br-xs);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.04);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19px var(--padding-lg) 22px;
+  box-sizing: border-box;
+  color: rgba(29, 29, 29, 0.3);
+  min-width: 205px;
+}
+.div {
+  width: 100.7px;
+  position: relative;
+  line-height: 22px;
+  color: var(--color-gray-100);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.buttonContinue1,
+.formButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.formButton {
+  cursor: pointer;
+  border: 0;
+  padding: 13px var(--padding-xl);
+  background-color: #ffcf08;
+  flex: 1;
+  border-radius: var(--br-xs);
+  justify-content: center;
+}
+.buttonContinue1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 6px;
+}
+.eMail,
+.secondaryActionLinks {
+  display: flex;
+  justify-content: center;
+}
+.eMail {
+  width: 159.3px;
+  position: relative;
+  line-height: 4px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.secondaryActionLinks {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  font-size: 7px;
+  color: rgba(29, 29, 29, 0.5);
+}
+.buttonSvgParent,
+.divsignupFormInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonSvgParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.divsignupFormInner {
+  height: 306px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.mosru,
+.svg {
+  position: relative;
+}
+.svg {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mosru {
+  flex: 1;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 51.4px;
+}
+.link {
+  height: 48px;
+  width: 220.2px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-wheat);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) 15.799999999999995px var(--padding-sm-5)
+    var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.div1,
+.svgIcon {
+  position: relative;
+}
+.svgIcon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div1 {
+  flex: 1;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 84.9px;
+}
+.link1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-5) 15.799999999999985px var(--padding-sm-5)
+    17.999999999999996px;
+  background-color: var(--color-wheat);
+  height: 48px;
+  width: 220.2px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.div2,
+.svgIcon1 {
+  position: relative;
+}
+.svgIcon1 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div2 {
+  flex: 1;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 58.5px;
+}
+.divsignupForm,
+.divsignupFormSecondaryAct,
+.link2 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.link2 {
+  height: 48px;
+  width: 220.2px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-wheat);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-smi-5) 15.799999999999985px var(--padding-sm-5)
+    var(--padding-lg);
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+}
+.divsignupForm,
+.divsignupFormSecondaryAct {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divsignupFormSecondaryAct {
+  width: 422px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: 12.000000000000009px;
+  max-width: 108%;
+  font-size: 15.8px;
+}
+.divsignupForm {
+  width: 390px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 12px 0 287px;
+  gap: 40px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.divstylesActivityPopupCon {
+  position: relative;
+  background-color: #fffbf3;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}

@@ -1,0 +1,300 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 390px;
+    height: 3009px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+  .counter {
+    position: relative;
+    width: 1px;
+    height: 1px;
+    margin: 2876px 0 0 -9999px;
+    background: url(../assets/images/f9a2e874-1a91-41be-b31d-610cfa2e06d4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 161;
+    overflow: hidden;
+  }
+  .flex-column-fba {
+    position: absolute;
+    height: 3009px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 127;
+  }
+  .layout-nota-wrapper {
+    position: absolute;
+    height: 2876px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+  }
+  .header {
+    position: relative;
+    width: 390px;
+    height: 48px;
+    margin: 0 0 0 0;
+    background: #ffffff;
+    z-index: 150;
+  }
+  .button-svg {
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    top: 14px;
+    left: 54px;
+    z-index: 153;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 63.485px;
+    height: 19.478px;
+    margin: 0.26px 0 0 0;
+    background: url(../assets/images/7473ead9-cd4f-447f-b129-d7c79d35e514.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 154;
+  }
+  .link-svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 14px;
+    left: 16px;
+    background: url(../assets/images/fa791120-94b5-491e-b2be-d4c08158c7ea.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 151;
+    overflow: hidden;
+  }
+  .link-button-svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(515%, -50%);
+    z-index: 155;
+    overflow: hidden;
+  }
+  .vector-1 {
+    position: relative;
+    width: 19.994px;
+    height: 18.163px;
+    margin: 0.93px 0 0 0px;
+    background: url(../assets/images/d0e15f97-2914-4a76-b401-8cae745167e3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 156;
+  }
+  .button-svg-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(655%, -50%);
+    z-index: 157;
+    overflow: hidden;
+  }
+  .vector-3 {
+    position: relative;
+    width: 19.5px;
+    height: 19.101px;
+    margin: 0 0 0 0.25px;
+    background: url(../assets/images/924abda7-fc0b-48d6-b71d-db07c613c7d4.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 158;
+  }
+  .header-nota-line {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    top: 50%;
+    left: 44px;
+    background: #d9d9d9;
+    transform: translate(0, -50%);
+    z-index: 152;
+    border-radius: 2px;
+  }
+  .button-svg-4 {
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(795%, -50%);
+    z-index: 159;
+    overflow: hidden;
+  }
+  .vector-5 {
+    position: relative;
+    width: 19.048px;
+    height: 13.333px;
+    margin: 0.33px 0 0 0.25px;
+    background: url(../assets/images/1abab24e-ae9e-40d2-96bb-6738b6127758.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 160;
+  }
+  .image-fill {
+    position: absolute;
+    width: 390px;
+    height: 2371px;
+    top: 47px;
+    left: 0;
+    z-index: 4;
+    overflow: hidden;
+  }
+  .image {
+    position: relative;
+    width: 390px;
+    height: 600px;
+    margin: 1px 0 0 0;
+    background: url(../assets/images/ba104646-59ef-4426-b648-2ffadbe62dac.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+    overflow: hidden;
+  }
+  .after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 0px;
+    background: url(../assets/images/ccfb1cb3-6d78-4a85-b0bc-798261e6c27c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+  }
+  .splanirovyte-idealnoe-puteshestvie {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 273.83px;
+    height: 52.8px;
+    margin: 79.795px 0 0 16px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 23.8125px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    text-overflow: initial;
+    letter-spacing: -1.44px;
+    z-index: 11;
+    overflow: hidden;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 7px;
+    position: relative;
+    width: 119.59px;
+    margin: 7.985px 0 0 16px;
+    z-index: 12;
+  }
+  .frame-6 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 6px;
+    position: relative;
+    width: 119.59px;
+    z-index: 13;
+  }
+  .moskva {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 93.59px;
+    height: 26.4px;
+    color: #ffc300;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .after-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 20px;
+    height: 10px;
+    z-index: 15;
+  }
+  .chevron-down-c-svg-fill {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    overflow: hidden;
+  }
+  .chevron-down-c-svg {
+    position: relative;
+    width: 17.143px;
+    height: 10px;
+    margin: 0 0 0 0;
+    z-index: 17;
+    overflow: hidden;
+  }
+  .vector-8 {
+    position: relative;
+    width: 17.143px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: url(../assets/images/359a9e33-9d10-418f-a7fd-7d1a86d67f82.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .before {
+    flex-shrink: 0;
+    position: relative;
+    width: 93.39px;
+    height: 2px;
+    background: url(../assets/images/28df7b82-3c6d-441a-9905-2f35c493d9cd.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;

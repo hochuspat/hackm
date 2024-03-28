@@ -1,0 +1,12 @@
+authtoken: 2a4SKxw1i259mlLuEklP6cK7k4n_4pGTGfjMtotUmwgtAkGCo
+version: "1"
+tunnels:
+  fastapi:
+    proto: http
+    addr: 8000
+  another-service:
+    proto: http
+    addr: 3000
+  fastapi-alt:
+    proto: http
+    addr: 3002

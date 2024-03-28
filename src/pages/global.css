@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-xs-8: 11.8px;
+  --font-size-base-8: 15.8px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #1d1d1d;
+  --color-whitesmoke-100: #f5f5f5;
+  --color-whitesmoke-200: #ebebeb;
+  --primary: #ffcf08;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-12xs: 1px;
+  --padding-mini: 15px;
+  --padding-4xs: 9px;
+  --padding-mid: 17px;
+  --padding-3xs: 10px;
+  --padding-smi: 13px;
+  --padding-11xl: 30px;
+  --padding-60xl-8: 79.8px;
+  --padding-2xs: 11px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-base: 16px;
+}
