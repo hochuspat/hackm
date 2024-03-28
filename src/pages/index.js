@@ -168,7 +168,7 @@ const RusspassruByHtmltodesign = () => {
             <div className={styles.link1}>
         {/* Выпадающий список с городами, с применением стилей текста */}
         <select
-          className={styles.div1} // Использование существующего класса для стилей текста
+          className={styles.div1} 
           value={selectedCity}
           onChange={(e) => setSelectedCity(e.target.value)}
           style={{ 
@@ -176,7 +176,6 @@ const RusspassruByHtmltodesign = () => {
             background: `url('/after.svg') no-repeat right`, 
             backgroundSize: '1.5em', 
             paddingRight: '2em',
-            // Дополнительные стили для текста, если это необходимо
             color: 'inherit', // Пример использования наследования цвета текста
             fontFamily: 'inherit', // Пример использования наследования шрифта
           }}
@@ -196,7 +195,6 @@ const RusspassruByHtmltodesign = () => {
                 ))}
               </div>
             </div>
-            {/* Продолжаем с оставшейся структурой без изменений */}
             <div className={styles.form}>
               <div className={styles.divsearchbytabsInputwrapper}>
                 <div className={styles.input}>
@@ -212,14 +210,14 @@ const RusspassruByHtmltodesign = () => {
         type="date"
         value={startDate}
         onChange={(e) => setStartDate(e.target.value)}
-        className={styles.dateInput} // Примените стили для адаптации под ваш дизайн
+        className={styles.dateInput}
       />
       <span>—</span>
       <input
         type="date"
         value={endDate}
         onChange={(e) => setEndDate(e.target.value)}
-        className={styles.dateInput} // Примените стили для адаптации под ваш дизайн
+        className={styles.dateInput} 
       />
     </div>
               <button className={styles.button1}>
